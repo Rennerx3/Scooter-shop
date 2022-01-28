@@ -373,6 +373,13 @@ footer{
      align-content: center;
 }
 
+#conteiner-acerca-de-nosotros {
+    display: grid;
+    grid-template-columns: 700px ;
+    justify-content: center
+    
+}
+
 
 #grid-conteiner {
     display: grid;
@@ -381,6 +388,8 @@ footer{
     justify-content: space-around;
 
 }
+
+
 
 #conteiner-sec {
     display: flex;
@@ -425,7 +434,6 @@ ul {
     
 
 }
-
 
 
     /*ESTILOS GENERALES*/
@@ -496,8 +504,11 @@ ul {
         margin-top: 35px;
     }
 
+    
+
     .section #homeinfo{
         width: 900px;
+        padding-bottom: 10px;
     }
     
     div iframe{
@@ -506,10 +517,23 @@ ul {
         border: solid 2px black;
         background-color: black;
     }
+
+    #conteiner-sec{
+        padding-bottom: 15px;
+    }
     
-    section div img {
+    section div div img {
         border-radius: 150px;
         border: 5px solid black;
+    }
+
+    #eden {
+        padding-right: 70px;
+    }
+
+
+    #grid-conteiner {
+        padding: 15px
     }
     
     .section h1 {
@@ -519,7 +543,7 @@ ul {
         text-decoration: underline;
         border-radius: 30px;
         font-size: 30px;
-        padding: 10px;
+        padding: 40px
     }
     
     aside a {
