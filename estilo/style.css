@@ -362,14 +362,14 @@ footer{
      grid-template-columns: repeat(2fr);
      justify-content: end;
      align-content: center;
-     height: 10vh;
+     height: 12vh;
 }
 
 #conteiner {
     display: grid;
      grid-template-columns: repeat(2fr);
      justify-content: end;
-     height: 10vh;
+     height: 12vh;
      align-content: center;
 }
 
@@ -418,12 +418,15 @@ footer{
     align-items: flex-end;
 }
 
+
 ul {
     display: flex;
     flex-direction: row;
     
 
 }
+
+
 
     /*ESTILOS GENERALES*/
 
@@ -446,7 +449,8 @@ ul {
     .nav {
     
         background-color: #ff4e00;
-        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%)
+        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+
     }
     
     nav ul li:hover {
