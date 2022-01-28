@@ -457,7 +457,7 @@ ul {
     .nav {
     
         background-color: #ff4e00;
-        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
+        background-image: linear-gradient(315deg, #ff5100 0%, #ec9f05 74%);
 
     }
     
@@ -564,7 +564,7 @@ ul {
     }
     
     .footer {
-        background-color: #ff4e00;
+        background-color: #ff5e00;
         background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
         font-size: 20px;
         padding-right: 25px;
@@ -589,4 +589,5 @@ ul {
     #button {
         padding-right: 125px;
     }
+
 }
