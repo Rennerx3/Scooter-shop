@@ -4,32 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap local-->
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.css">
     <!--CSS--> 
-    <link rel="stylesheet" href="estilo/style.css" >
+    <link rel="stylesheet" href="estilo/style.css">
     <!--favicon-->
     <link rel="shortcut icon" href="img/favicon.jpg">
     <!--Animation-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Focus</title>
 </head>
-<body>
-    <div class="cuerpo">
-        <header class="header">
-            <h1 class="animate__animated animate__tada"><a href="index.html">Focus shop</a></h1>
-        </header>
-        <nav class="nav">
-            <div class="conteiner">
-                <ul class="animate__animated animate__backInDown">    
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="secciones/acerca-de-nosotros.html">ACERCA DE NOSOTROS</a></li>
-                    <li><a href="secciones/productos.html">PRODUCTOS</a></li>
-                    <li><a href="secciones/preguntas-frecuentes.html">PREGUNTAS FRECUENTES</a></li>
-                    <li><a href="secciones/contactanos.html">CONTACTANOS</a></li>
+<body>    
+    <!--NAV BAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">    
+        <div class="container-fluid ">
+            <!--ICONO-->
+            <a class="navbar-brand" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="blueviolet" class="bi bi-eye" viewBox="0 0 16 16">
+                    <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
+                    <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
+                  </svg>
+            </a>  
+            <!--FIN ICONO--> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/acerca-de-nosotros.html">ACERCA DE NOSOTROS</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="secciones/productos.html">
+                        PRODUCTOS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/preguntas-frecuentes.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="secciones/contactanos.html">CONTACTANOS</a>
+                    </li>
                 </ul>
+                <form class="ep">
+                    <div class="mb-3 ">
+                      <input type="email" class="form-control me-2" placeholder="Email" id="exampleInputEmail1" aria-current="page">
+                    </div>
+                    <div class="mb-3">
+                      <input type="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary ep-button">Entrar</button>
+                </form>
             </div>
-        </nav>
+        </div>
+    </nav>    
+    <!--NAV BAR FIN-->
         <section class="section">
-            <div id="conteiner-sec" class="animate__animated animate__lightSpeedInLeft">
+            <div class="container" class="animate__animated animate__lightSpeedInLeft">
                 <div id="homeinfo">
                     <p> Somos una tienda especializada en scooters profesionales, algunas de las marcas con las que trabajamos son Lucky, District, Sacrifice, Phoenix, Dominator, Native y Tilt. <br>
                     ¿Está buscando un scooter completo? Nosotros lo tenemos!, consulte alguna de nuestras publicaciones del sitio para comenzar a patinar, le ofreceremos scooters de excelente calidad, a un modesto precio. <br>
@@ -54,7 +88,9 @@
                 <a href="https://www.instagram.com" target="blank"><img src="img/instagram.png" alt="instagram"></a>
                 <a href="https://www.facebook.com" target="blank"><img src="img/facebook.png" alt="facebook"></a>
             </div>
-        </footer>
-    </div>    
+        </footer> 
+    <!--Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
