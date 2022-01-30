@@ -440,14 +440,15 @@ ul {
 
     .header {
         font-family: 'The Nautigal', cursive;
-        font-size: 29px;
         background-color: #ff4e00;
+        font-size: 28px;
         background-image: linear-gradient(to right, #ff4e00 0%, #ec9f05 74%);
         width: 400px;
         text-align: center;
         
         
     }
+
     
     .header a {
         color: black;
@@ -560,7 +561,7 @@ ul {
     .aside img {
         width: 250px;
         height: 450px;
-        transform: translateY(60px);
+        padding-top: 65px;
     }
     
     .footer {
