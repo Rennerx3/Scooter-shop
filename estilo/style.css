@@ -7,19 +7,6 @@
     
 }
 
-    /*FLEX */
-
-.ep{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    height: 5vh;
-    justify-content: center;
-
-    
-}
-
-
 /*ESTILOS GENERALES*/
 
 /*INDEX*/
@@ -41,6 +28,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position:top;
     opacity: .7;
     
 }
@@ -55,6 +43,7 @@
     padding-top: 10px;
     padding-bottom: 40px;
     text-decoration: underline;
+    color: rgb(255, 255, 255);
     font-family: 'The Nautigal';
 }
 
@@ -63,7 +52,7 @@
 }
 
 .divider{
-    height: 5vh;
+    height: 3vh;
     border-bottom: 3px solid blueviolet;
     border-top:  3px solid blueviolet;
 }
@@ -101,6 +90,21 @@ aside a img{
     background-position: center;
     font-weight: bold;
     color: whitesmoke;
+}
+
+/*FAQ*/
+
+#faqh1{ 
+    color: whitesmoke;
+    padding:15px
+}
+
+#faqp{
+    color: white;
+}
+
+.section4{
+    border-bottom:2px solid rgb(241, 245, 245) ;
 }
 
 /* FORMULARIO*/
