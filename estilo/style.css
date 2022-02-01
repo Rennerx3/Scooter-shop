@@ -103,3 +103,29 @@ aside a img{
     color: whitesmoke;
 }
 
+/* FORMULARIO*/
+
+.form div label{ 
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 3px;
+
+}
+
+.form div input {
+    height: 7vh;
+}
+
+.form div button {
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.inform {
+    color:white
+}
+
+.section5{
+    border-bottom: 2px solid rgb(241, 245, 245);
+}
