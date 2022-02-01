@@ -7,588 +7,129 @@
     
 }
 
-/*AREAS DE GRID*/
+/*ESTILOS GENERALES*/
 
-header{
-    grid-area: header;
-}
-
-nav {
-    grid-area: nav;
-}
-
-section{
-    grid-area: section;
+/*INDEX*/
     
-}
-
-aside{
-    grid-area: publicidad;
-    border: solid 2px black
-}
-
-footer{
-    grid-area: footer;
+.nav ul li:hover {
+        background-color: blueviolet;
+        border-radius: 100px;
 }
 
 
-/*RESPONSIVE*/
-
-
-/* MEDIA QUERIES*/
-
-
-/* SMARTPHONE*/
-
-@media (max-width: 480px) {
-
-    /*GRID*/
-
-    
-
-    .cuerpo {display: grid;
-
-        grid-template-areas: 
-        "header"
-        "nav"
-        "section"
-        "footer" ;
-        grid-template-columns: 1fr;
-        height: 100vh;
-        width: 100%;
-    }
-    
-
-    .header{
-        display: grid;
-        justify-content: center;
-        align-content: center;
-        height: 10vh;
-    }
-
-    .nav{
-        display: grid;
-        align-content: center;
-    }
-
-    #grid-formulario{
-        display: grid;
-        height: 40vh;
-        align-content: center;
-    } 
-
-    /*FLEXBOX*/
-
-    .footer {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        justify-content: space-between;
-        
-    }
-
-    
-
-    .redes{
-        display: flex;
-        flex-direction: row;
-    }
-
-    /*ESTILOS GENERALES*/
-
-    body {
-        background-color: #ff4e00;
-        background-image: linear-gradient(to right, #ff4e00 0%, #ec9f05 74%)
-    }
-
-    .header {
-        font-family: 'The Nautigal', cursive;
-        font-size: 25px;
-    }
-    .header h1 a {
-        color: black;
-        text-decoration: none;
-    }
-   
-    .nav{
-        background-color: black;
-        padding-left: 25px;
-    }
-
-    nav li:hover {
-        background-color: #ff4e00;
-        margin-right: 200px;
-    }
-    .nav a{
-        color: white;
-    }
-    ul{
-        list-style-type: none;
-    }
-
-    .sectionDiv iframe{
-        width: 300px;
-        height: 150px;
-    }
-
-    section div {
-        text-align: center;
-        margin: 15px;
-    }
-
-    section div img {
-        border-radius: 150px;
-        border: 5px solid black;
-    }
-
-    .section h1 {
-    
-        text-align: center;
-        color: black;
-        text-decoration: underline;
-        font-size: 25px;
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-
-    
-
-    aside{
-        display: none;
-    }
-
-    .redes {
-        width: 100px;
-    }
-
-    .footer {
-        border-top: black 2px solid;
-        margin-top: 200px;
-    }
-
-    footer div img {
-        width: 35px;
-    }
+.publicidad {
+    border: 2px solid black;
 }
 
-/*TABLET*/
- 
-@media (min-width: 481px) and (max-width: 1023px) {
+.section {
+    padding-bottom: 40px;
+    overflow: hidden;
+    background-image: url(../img/sundy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:top;
+    opacity: .7;
     
-
-    /*GRID*/
-
-    .cuerpo {display: grid;
-
-        grid-template-areas: 
-        "header  nav      nav"
-        "section section  section"
-        "footer  footer   footer" ;
-        grid-template-rows: 0.5fr  1fr  1fr ; 
-        grid-template-columns: 0.5fr 0.8fr  0.8fr ;
-        height: 100vh;
-    }
-
-    #grid-conteinerProductos {
-        display: grid;
-        grid-template-columns: 200px 200px;
-        justify-content: space-around;
-        text-align: center;
-        align-content: center;
-        height: 425px;
-        
-        }
-
-    .header{
-        display: grid;
-        justify-content:center;
-        align-content: center;
-        width: 200px;
-    }
-
-    
-   
-    /*FLEXBOX*/
-
-    
-
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items:flex-end;
-        height: 10vh;
-        
-    }
-    
-
-    /*ESTILOS GENERALES*/
-    body {
-        background-color: #ff4e00;
-        background-image: linear-gradient(to right, #ff4e00 0%, #ec9f05 74%)
-    }
-
-    #conteinerhn {
-        border-bottom: 2px black solid;
-    }
-
-    .header {
-        font-family: 'The Nautigal', cursive;
-        font-size: 25px;
-        
-    }
-    .header h1 a {
-        color: black;
-        text-decoration: none;
-    }
-
-    nav {
-        border-bottom: black 2px solid;
-        border-left: black 2px solid;
-    }
-
-    nav li:hover {
-        background-color: black;
-        padding: 5px;
-        text-decoration: underline;
-    }
-    ul a{
-        text-decoration: none;
-    }
-
-    nav div ul li {
-        padding: 2px;
-        list-style-type: none;
-        text-align: center;
-    }
-
-    section div {
-        font-family: sans-serif;
-        text-align: center;
-    }
-
-    .section {
-        margin-top: 75px;
-    }
-
-    .sectionDiv iframe{
-        width: 400px;
-        height: 200px;
-        margin-top: 30px;
-        border: 20px solid black;
-        
-    }
-    .sectionDiv p{
-        margin-top: 25px;
-    }
-
-    section div img {
-        border-radius: 150px;
-        border: 5px solid black;
-    }
-
-    .section h1 {
-    
-        text-align: center;
-        color: black;
-        text-decoration: underline;
-        font-size: 25px;
-        margin-bottom: 30px;
-    }
-
-    .section div div p {
-        padding: 24px;
-    }
-
-    .aside {
-        display: none;
-    }
-
-    .footer {
-        border-top: 2px solid black;
-        margin-top: 160px;
-
-
-    }
-
-    footer div img {
-        width: 50px;
-    }
-
-    
-    form input {
-        height: 5vh;
-    }
-    
-    fieldset {
-        padding: 50px;
-        border: 4px solid black;
-    }
-    
-    #button {
-        padding-right: 125px;
-    }
-
-    .redes{
-        margin-top: 3px
-    }
 }
 
-/*DESKTOP*/
-
-@media (min-width: 1024px) {
-
-    
-/*GRIDS*/
-
-.cuerpo {display: grid;
-
-    grid-template-areas: 
-    "header     nav     nav"
-    "section    section publicidad"
-    "footer     footer  footer" ;
-    grid-template-rows: 0.5fr 3.5fr auto; 
-    grid-template-columns: 2fr 5fr 1fr;
-    height: 100vh;
+.section div p {
+    font-weight: bold;
+    color:black
 }
 
-.header{
-    display: grid;
-    align-content: center;
+
+.section div h1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-family: 'The Nautigal';
 }
 
-.conteiner{
-     display: grid;
-     grid-template-columns: repeat(2fr);
-     justify-content: end;
-     align-content: center;
-     height: 12vh;
+#sundyvideo{
+    padding-top: 20px;
 }
 
-#conteiner {
-    display: grid;
-     grid-template-columns: repeat(2fr);
-     justify-content: end;
-     height: 12vh;
-     align-content: center;
+.divider{
+    height: 3vh;
+    border-bottom: 3px solid blueviolet;
+    border-top:  3px solid blueviolet;
 }
 
-#conteiner-acerca-de-nosotros {
-    display: grid;
-    grid-template-columns: 700px ;
-    justify-content: center
+
+
+#tienda{
+    background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
     
 }
 
 
-#grid-conteiner {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
+
+
+aside a {
     text-align: center;
-    justify-content: space-around;
+}
+
+aside a img{
+    margin-top:35px;
+    width: 100%;
+    height: 50vh;
+}
+
+/*ACERCA DE NOSOTROS*/
+
+.section2 {
+    background-image: url(https://yt3.ggpht.com/ytc/AKedOLRAcE-fGGMlNLWk5l_Km-L0EwOB3B3G5cZWwDkm1w=s900-c-k-c0x00ffffff-no-rj);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+/*FAQ*/
+
+#faqh1{ 
+    color: whitesmoke;
+    padding:15px
+}
+
+#faqp{
+    color: white;
+}
+
+.section4{
+    border-bottom:2px solid rgb(241, 245, 245) ;
+}
+
+/* FORMULARIO*/
+
+.form div label{ 
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 3px;
 
 }
 
-
-
-#conteiner-sec {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.form div input {
+    height: 7vh;
 }
 
-#grid-conteinerProductos {
-    display: grid;
-    grid-template-columns: 300px 300px;
-    justify-content:space-around ;
-    text-align: center;
-    align-content: center;
-    height: 550px;
-    
-    
-    }
-
-#grid-formulario {
-    display: grid;
-    grid-template-rows: repeat(30px);
-    justify-items: center;
-    align-items: center;
-    height: 70vh;
+.form div button {
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 3px;
 }
 
-
-    /*FLEX */
-
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
+.inform {
+    color:white
 }
 
-
-ul {
-    display: flex;
-    flex-direction: row;
-    
-
-}
-
-
-    /*ESTILOS GENERALES*/
-
-    .header {
-        font-family: 'The Nautigal', cursive;
-        background-color: #ff4e00;
-        font-size: 28px;
-        background-image: linear-gradient(to right, #ff4e00 0%, #ec9f05 74%);
-        width: 400px;
-        text-align: center;
-        
-        
-    }
-
-    
-    .header a {
-        color: black;
-    }
-    
-    
-    .nav {
-    
-        background-color: #ff4e00;
-        background-image: linear-gradient(315deg, #ff5100 0%, #ec9f05 74%);
-
-    }
-    
-    nav ul li:hover {
-        background-color: black;
-    }
-
-    ul {
-        list-style-type: none;
-    }
-    
-    
-    a{
-        text-decoration: none;
-        color: white;
-        
-    }
-    
-    ul li a {
-        padding: 1.5rem;
-        font-weight: bold;
-    
-    }
-    
-    .section {
-        background-image: url(https://i.ytimg.com/vi/t5rU6ZBIWS4/maxresdefault.jpg);
-        background-repeat: no-repeat;
-        font-family: sans-serif;
-        background-size: cover;
-        line-height: 20px;
-        text-align: center;
-    }
-
-    .sectionDiv iframe{
-        width:560px; height:315px 
-    }
-    
-    div p {
-        margin-top: 10px;
-        padding:10px;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.651);
-        border-radius: 45px;
-        margin-top: 35px;
-    }
-
-    
-
-    .section #homeinfo{
-        width: 900px;
-        padding-bottom: 10px;
-    }
-    
-    div iframe{
-        margin: 20px;
-        padding: 15px;
-        border: solid 2px black;
-        background-color: black;
-    }
-
-    #conteiner-sec{
-        padding-bottom: 15px;
-    }
-    
-    section div div img {
-        border-radius: 150px;
-        border: 5px solid black;
-    }
-
-    #eden {
-        padding-right: 70px;
-    }
-
-
-    #grid-conteiner {
-        padding: 15px
-    }
-    
-    .section h1 {
-    
-        text-align: center;
-        color: black;
-        text-decoration: underline;
-        border-radius: 30px;
-        font-size: 30px;
-        padding: 40px
-    }
-    
-    aside a {
-        text-decoration: none;
-        list-style-type: none;
-        color: black;
-    }
-    
-    .aside h1 {
-        text-align: center;
-        padding: 6px;
-    }
-    
-    .aside img {
-        width: 250px;
-        height: 450px;
-        padding-top: 65px;
-    }
-    
-    .footer {
-        background-color: #ff5e00;
-        background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);
-        font-size: 20px;
-        padding-right: 25px;
-        height: 7.5vh;
-    }
-
-    footer div img {
-        width: 50px;
-        margin-left: 10px;
-    }
-    
-    
-    form input {
-        height: 5vh;
-    }
-    
-    fieldset {
-        padding: 100px;
-        border: 4px solid black;
-    }
-    
-    #button {
-        padding-right: 125px;
-    }
-
+.section5{
+    border-bottom: 2px solid rgb(241, 245, 245);
 }
