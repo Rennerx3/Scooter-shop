@@ -1,0 +1,82 @@
+/*TIPO DE FUENTE*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=The+Nautigal&display=swap");
+/* RESET CSS */
+* {
+  padding: 0;
+  margin: 0; }
+
+/*ESTILOS GENERALES*/
+/*INDEX*/
+.nav div div ul li:hover {
+  background-color: #ffc107;
+  border-radius: 100px; }
+
+aside h2 {
+  padding-top: 20px; }
+
+aside img {
+  margin-top: 35px;
+  width: 100%;
+  height: 50vh; }
+
+.section {
+  padding-bottom: 40px;
+  overflow: hidden;
+  background-image: url(../img/sundy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top; }
+  .section div div h1 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-family: "The Nautigal"; }
+  .section div div #sunnyvideo {
+    padding-top: 20px; }
+
+.divider {
+  height: 3vh;
+  border-bottom: 3px solid #ffc107;
+  border-top: 3px solid #ffc107; }
+
+#tienda {
+  background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden; }
+
+/*ACERCA DE NOSOTROS*/
+.section2 {
+  background-image: url(https://yt3.ggpht.com/ytc/AKedOLRAcE-fGGMlNLWk5l_Km-L0EwOB3B3G5cZWwDkm1w=s900-c-k-c0x00ffffff-no-rj);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+/*FORMULARIO*/
+#formc div label {
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 3px; }
+
+#formc div input {
+  height: 7vh; }
+
+#formc div button {
+  padding: 10px 40px;
+  margin-top: 10px;
+  margin-bottom: 3px; }
+
+#section-contactos {
+  padding-bottom: 25px; }
+
+/*ANIMACIONES*/
+.nav {
+  animation-name: nav;
+  animation-duration: 1s; }
+
+@keyframes nav {
+  0% {
+    transform: translateY(-50px); }
+  100% {
+    transform: translateY(0px); } }
