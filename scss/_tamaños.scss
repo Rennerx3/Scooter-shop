@@ -1,0 +1,48 @@
+//variables
+
+$color: #ffc107; 
+
+//tamaños
+
+/*INDEX TAMAÑOS*/
+aside {
+    h2{
+        padding-top: 20px;
+    }
+    img{
+        margin-top: 35px;
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+.divider{
+    height: 3vh;
+    border-bottom: 3px solid $color;
+    border-top: 3px solid $color;
+}
+
+/*FORMULARIO TAMAÑOS*/
+
+#formc {
+    div {
+        label{
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 3px;
+        }
+        input{
+                height: 7vh;
+            }
+            button{
+                padding: 10px 40px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+        }
+    }
+}
+
+#section-contactos{
+    padding-bottom: 25px;
+}
+

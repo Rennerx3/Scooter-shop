@@ -1,0 +1,12 @@
+/*ANIMACIONES*/ 
+
+.nav {
+    animation-name: nav;
+    animation-duration: 1s;
+}
+
+@keyframes nav{
+    0%{transform: translateY(-50px);}
+
+    100% {transform: translateY(0px);}
+}

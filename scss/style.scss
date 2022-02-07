@@ -4,8 +4,12 @@
 * {
     padding: 0;
     margin: 0;
-    
 }
+
+//import
+
+@import "animaciones";
+@import "tamaños";
 
 //variables
 
@@ -36,19 +40,6 @@ $color: #ffc107;
     }
 }
 
-
-
-aside {
-    h2{
-        padding-top: 20px;
-    }
-    img{
-        margin-top: 35px;
-        width: 100%;
-        height: 50vh;
-    }
-}
-
 .section {
     padding-bottom: 40px;
     overflow: hidden;
@@ -72,12 +63,6 @@ aside {
     
 }
 
-.divider{
-    height: 3vh;
-    border-bottom: 3px solid $color;
-    border-top: 3px solid $color;
-}
-
 #tienda{
     background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
     background-repeat: no-repeat;
@@ -96,39 +81,3 @@ aside {
 }
 
 
-/*FORMULARIO*/
-
-#formc {
-    div {
-        label{
-            font-weight: bold;
-            padding-top: 5px;
-            padding-bottom: 3px;
-        }
-        input{
-                height: 7vh;
-            }
-            button{
-                padding: 10px 40px;
-    margin-top: 10px;
-    margin-bottom: 3px;
-        }
-    }
-}
-
-#section-contactos{
-    padding-bottom: 25px;
-}
-
-/*ANIMACIONES*/ 
-
-.nav {
-    animation-name: nav;
-    animation-duration: 1s;
-}
-
-@keyframes nav{
-    0%{transform: translateY(-50px);}
-
-    100% {transform: translateY(0px);}
-}
