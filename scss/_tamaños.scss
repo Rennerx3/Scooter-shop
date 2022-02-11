@@ -1,6 +1,10 @@
 //variables
 
-$color: #ffc107; 
+$color: #ffc107;
+
+//import
+
+@import "mixins-extends";
 
 //tamaños
 
@@ -16,11 +20,14 @@ aside {
     }
 }
 
+/*DIVIDER SECTIONS INDEX*/
+
+//MIXIN
+
 .divider{
-    height: 3vh;
-    border-bottom: 3px solid $color;
-    border-top: 3px solid $color;
-}
+    @include divider (3vh, 3px solid $color, 3px solid $color)
+} 
+
 
 /*FORMULARIO TAMAÑOS*/
 
@@ -36,8 +43,8 @@ aside {
             }
             button{
                 padding: 10px 40px;
-    margin-top: 10px;
-    margin-bottom: 3px;
+                margin-top: 10px;
+                margin-bottom: 3px;
         }
     }
 }

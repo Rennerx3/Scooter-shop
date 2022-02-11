@@ -7,9 +7,12 @@
 
 //import
 
+@import "maps";
+@import "mapget";
 @import "animaciones";
 @import "tamaños";
-@import "maps";
+@import "mixins-extends";
+
 
 //variables
 
@@ -49,19 +52,18 @@ $color: #ffc107;
     }
 }
 
+//MAPGET
+
 .section-inicio {
-    padding-bottom: 40px;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position:top;
+    padding-bottom: map-get($cambios , paddingb);
+    overflow: map-get($cambios , over );
+    background-attachment: map-get($cambios , bga );
+    background-position:map-get($cambios , bgp );
     div {
         div{
             h1{
                 padding-top: 10px;
                 padding-bottom: 40px;
-                font-family: "The Nautigal";
             }
             #sunnyvideo{
                 padding-top: 20px;
@@ -70,6 +72,8 @@ $color: #ffc107;
     }
     
 }
+
+//FIN MAP GET
 
 #tienda{
     background-repeat: no-repeat;

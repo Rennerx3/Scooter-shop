@@ -1,0 +1,12 @@
+//MIXINS
+
+
+//MIXINS
+
+@mixin divider ($alto, $borderb, $bordert) { 
+    height: $alto;
+    border-bottom: $borderb;
+    border-top: $bordert;
+ }
+
+
