@@ -1,6 +1,5 @@
-/*TIPO DE FUENTE*/
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=The+Nautigal&display=swap');
 /* RESET CSS */
+
 * {
     padding: 0;
     margin: 0;
@@ -10,11 +9,21 @@
 
 @import "animaciones";
 @import "tamaños";
+@import "maps";
 
 //variables
 
 $color: #ffc107; 
 
+/*EACH CON LOS MAPS */
+
+@each $name-bgimages, $urls in $bgimage{
+    .section-#{$name-bgimages}{
+        background-image: $urls;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
 
 /*ESTILOS GENERALES*/ 
 
@@ -40,10 +49,9 @@ $color: #ffc107;
     }
 }
 
-.section {
+.section-inicio {
     padding-bottom: 40px;
     overflow: hidden;
-    background-image: url(../img/sundy.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -64,7 +72,6 @@ $color: #ffc107;
 }
 
 #tienda{
-    background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -73,11 +80,12 @@ $color: #ffc107;
 
 /*ACERCA DE NOSOTROS*/
 
-.section2 {
-    background-image: url(https://yt3.ggpht.com/ytc/AKedOLRAcE-fGGMlNLWk5l_Km-L0EwOB3B3G5cZWwDkm1w=s900-c-k-c0x00ffffff-no-rj);
+.section-acerca {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
+
+
 
 

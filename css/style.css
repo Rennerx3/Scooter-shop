@@ -1,6 +1,4 @@
 @charset "UTF-8";
-/*TIPO DE FUENTE*/
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=The+Nautigal&display=swap");
 /* RESET CSS */
 * {
   padding: 0;
@@ -48,37 +46,51 @@ aside img {
 #section-contactos {
   padding-bottom: 25px; }
 
+/* MAPS*/
+/*EACH CON LOS MAPS */
+.section-inicio {
+  background-image: url(../img/sundy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section-inicioDos {
+  background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section-acerca {
+  background-image: url(https://yt3.ggpht.com/ytc/AKedOLRAcE-fGGMlNLWk5l_Km-L0EwOB3B3G5cZWwDkm1w=s900-c-k-c0x00ffffff-no-rj);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 /*ESTILOS GENERALES*/
 /*INDEX*/
 .nav div div ul li:hover {
   background-color: #ffc107;
   border-radius: 100px; }
 
-.section {
+.section-inicio {
   padding-bottom: 40px;
   overflow: hidden;
-  background-image: url(../img/sundy.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: top; }
-  .section div div h1 {
+  .section-inicio div div h1 {
     padding-top: 10px;
     padding-bottom: 40px;
     font-family: "The Nautigal"; }
-  .section div div #sunnyvideo {
+  .section-inicio div div #sunnyvideo {
     padding-top: 20px; }
 
 #tienda {
-  background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden; }
 
 /*ACERCA DE NOSOTROS*/
-.section2 {
-  background-image: url(https://yt3.ggpht.com/ytc/AKedOLRAcE-fGGMlNLWk5l_Km-L0EwOB3B3G5cZWwDkm1w=s900-c-k-c0x00ffffff-no-rj);
+.section-acerca {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
