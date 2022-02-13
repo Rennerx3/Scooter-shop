@@ -18,7 +18,7 @@
 
 $color: #ffc107; 
 
-/*EACH CON LOS MAPS */
+/*EACH CON MAP */
 
 @each $name-bgimages, $urls in $bgimage{
     .section-#{$name-bgimages}{
@@ -74,6 +74,16 @@ $color: #ffc107;
 }
 
 //FIN MAP GET
+
+//EXTEND
+
+.p-inicio{
+    @extend .section-contactos;
+    color: rgb(255, 255, 255);
+   
+}
+
+//FIN EXTEND
 
 #tienda{
     background-repeat: no-repeat;

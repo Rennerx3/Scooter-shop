@@ -45,10 +45,10 @@ aside img {
   margin-top: 10px;
   margin-bottom: 3px; }
 
-#section-contactos {
+.section-contactos, .p-inicio {
   padding-bottom: 25px; }
 
-/*EACH CON LOS MAPS */
+/*EACH CON MAP */
 .section-inicio {
   background-image: url(../img/sundy.jpg);
   background-repeat: no-repeat;
@@ -80,6 +80,9 @@ aside img {
     padding-bottom: 40px; }
   .section-inicio div div #sunnyvideo {
     padding-top: 20px; }
+
+.p-inicio {
+  color: white; }
 
 #tienda {
   background-repeat: no-repeat;
