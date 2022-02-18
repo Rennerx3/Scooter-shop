@@ -55,17 +55,17 @@ aside img {
   background-size: cover; }
 
 .section-inicioDos {
-  background-image: url(https://www.samirayasmin.com/wp-content/uploads/2021/05/Rf5c679698942f59116380b0931ae7de6_.jpg);
+  background-image: url(../img/saunde-index.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .section-inicioTres {
-  background-image: url(https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/23_21.jpg);
+  background-image: url(../img/ubicacion.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .section-acerca {
-  background-image: url(https://yt3.ggpht.com/ytc/AKedOLRAcE-fGGMlNLWk5l_Km-L0EwOB3B3G5cZWwDkm1w=s900-c-k-c0x00ffffff-no-rj);
+  background-image: url(../img/acerca.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -88,9 +88,8 @@ aside img {
   color: black; }
 
 #tienda {
-  background-repeat: no-repeat;
-  background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   overflow: hidden; }
 
 #section-inicioTres {
