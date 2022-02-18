@@ -50,12 +50,17 @@ aside img {
 
 /*EACH CON MAP */
 .section-inicio {
-  background-image: url(../img/sundy.jpg);
+  background-image: url(../img/inicio.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
 .section-inicioDos {
-  background-image: url(https://cdn11.bigcommerce.com/s-cke7vub6/images/stencil/original/carousel/89/Carousel_Store_10262018.png?c=2);
+  background-image: url(https://www.samirayasmin.com/wp-content/uploads/2021/05/Rf5c679698942f59116380b0931ae7de6_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.section-inicioTres {
+  background-image: url(https://www.buenosaires.gob.ar/sites/gcaba/files/field/image/23_21.jpg);
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -78,17 +83,23 @@ aside img {
   .section-inicio div div h1 {
     padding-top: 10px;
     padding-bottom: 40px; }
-  .section-inicio div div #sunnyvideo {
-    padding-top: 20px; }
 
 .p-inicio {
-  color: white; }
+  color: black; }
 
 #tienda {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden; }
+
+#section-inicioTres {
+  background-attachment: fixed;
+  overflow: hidden;
+  z-index: 1; }
+  #section-inicioTres img {
+    overflow: hidden;
+    background-size: cover; }
 
 /*ACERCA DE NOSOTROS*/
 .section-acerca {

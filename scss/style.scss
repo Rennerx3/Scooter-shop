@@ -65,9 +65,6 @@ $color: #ffc107;
                 padding-top: 10px;
                 padding-bottom: 40px;
             }
-            #sunnyvideo{
-                padding-top: 20px;
-            }
         }
     }
     
@@ -79,8 +76,7 @@ $color: #ffc107;
 
 .p-inicio{
     @extend .section-contactos;
-    color: rgb(255, 255, 255);
-   
+    color: black;
 }
 
 //FIN EXTEND
@@ -90,6 +86,16 @@ $color: #ffc107;
     background-size: cover;
     background-attachment: fixed;
     overflow: hidden;
+}
+
+#section-inicioTres{
+    background-attachment: fixed;
+    overflow: hidden;
+    z-index: 1;
+    img{
+        overflow: hidden;
+        background-size: cover;
+    }
 }
 
 /*ACERCA DE NOSOTROS*/
