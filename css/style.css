@@ -64,6 +64,11 @@ aside img {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.section-inicioCuatro {
+  background-image: url(../img/juzzy-inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .section-acerca {
   background-image: url(../img/acerca.jpg);
   background-repeat: no-repeat;
@@ -99,6 +104,10 @@ aside img {
   #section-inicioTres img {
     overflow: hidden;
     background-size: cover; }
+
+.section-inicioCuatro {
+  background-attachment: fixed;
+  background-position: center; }
 
 /*ACERCA DE NOSOTROS*/
 .section-acerca {
