@@ -84,8 +84,7 @@ aside img {
   padding-bottom: 40px;
   overflow: hidden;
   background-attachment: fixed;
-  background-position: top;
-  height: 115vh; }
+  background-position: top; }
   .section-inicio div div h1 {
     padding-top: 10px;
     padding-bottom: 40px; }
@@ -114,5 +113,4 @@ aside img {
 .section-acerca {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  height: 100vh; }
+  background-position: center; }

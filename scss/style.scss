@@ -59,7 +59,6 @@ $color: #ffc107;
     overflow: map-get($cambios , over );
     background-attachment: map-get($cambios , bga );
     background-position:map-get($cambios , bgp );
-    height: 115vh;
     div {
         div{
             h1{
@@ -110,7 +109,6 @@ $color: #ffc107;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 
